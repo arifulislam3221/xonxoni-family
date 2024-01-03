@@ -19,3 +19,32 @@ div.main{
     width: 98%;
     height: 80%;
 } */
+/* header{
+    background-color:red;
+} */
+.li, .a{
+    display: inline;
+    font-size: large;
+    padding: 10px;
+}
+.a{
+    text-decoration: none;
+
+}
+/* header{
+    width: 100px;
+    height: 200px;
+    background-color: #777;
+} */
+/* .li{
+    background-color: blue;
+} */
+.ul{
+    background-color: blueviolet;
+}
+/* .nav{
+    background-color: bisque;
+} */
+/* .header{
+    background-color: black;
+} */
