@@ -1,0 +1,33 @@
+nav > ul{
+    /* '> means imidiat child' */
+    display: flex;
+    position: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background-color: antiquewhite;
+}
+
+/* nastted manu styles */
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    padding-left: 10px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+    padding: 3px;
+}
