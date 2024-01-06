@@ -32,3 +32,10 @@ nav li:hover > .dropdown{
     display: block;
     padding: 3px;
 }
+nav ul li:active{
+    background-color: lightyellow;
+    color: #333;
+  }
+  nav ul li:active{
+    text-decoration: underline;
+  }

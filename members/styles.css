@@ -7,6 +7,13 @@ div.main{
     height: 100vh;
     background-color: #fff;
 }
+/* header:active{
+  background-color: #ffcc00;
+  color: #333;
+}
+header:active{
+  text-decoration: underline;
+} */
 .header-div{    
     background-image: url("./32.png");
     background-size: cover;
