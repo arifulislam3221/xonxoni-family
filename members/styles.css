@@ -88,3 +88,17 @@ div.container {
     height:100px;
     overflow: hiden;
   } */
+  /* Default styles for desktop */
+.images {
+  display: inline-block;
+  width: 47%; /* Set a width to accommodate two divs in a row */
+  margin: 1%; /* Add some margin for spacing between divs */
+}
+
+/* Media query for devices with a maximum width of 768 pixels (typical tablets) */
+@media only screen and (max-width: 768px) {
+  .images {
+      width: 100%; /* Set width to 100% for a single div in a row */
+      margin: 0; /* Remove margin for better spacing in mobile view */
+  }
+}
